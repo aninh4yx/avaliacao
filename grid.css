@@ -14,4 +14,46 @@
     color: rgb(146, 83, 204);
     margin-bottom: 7px;
     text-align: center;
+} 
+
+
+
+@media screen and (min-width: 840px) {
+    body{
+        background: blueviolet;
+    }
+}
+
+.Imagem{
+    border-top: 10px groove rgb(92, 33, 133);
+    border-left: 10px dotted rgb(71, 0, 62);
+    border-right: 10px solid rgb(0, 63, 99);
+    border-bottom: 10px dashed rgb(138, 186, 214);
+    width: 100px;
+    height: 160px;
+    
+}
+.titulo__cabecalho{
+    font-size: 20px;
+    color:blue;
+}
+
+@media screen and (min-width: 1024px) {
+    body{
+        background: rgb(226, 55, 43);
+    }
+    
+}
+.Imagem{
+    border-top: 10px groove rgb(92, 33, 133);
+    border-left: 10px dotted rgb(71, 0, 62);
+    border-right: 10px solid rgb(0, 63, 99);
+    border-bottom: 10px dashed rgb(138, 186, 214);
+    width: 100px;
+    height: 160px;
+    
+}
+.titulo__cabecalho{
+    font-size: 80px;
+    color:brown;
 }
