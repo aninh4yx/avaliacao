@@ -53,9 +53,7 @@
     padding: 1em;
     background-color: var(--branco);
 }
-.logo{
-    width: 60px !important;
-}
+
 
 @media screen and (min-width:1024px) {
 
