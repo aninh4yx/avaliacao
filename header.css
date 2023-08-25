@@ -20,6 +20,8 @@
 }
 .container__imagem{
     padding: 1em;
+    width: 24px;
+    height: 24px;
 }
 
 .lista-menu{
@@ -35,6 +37,11 @@
 .container__botao:checked~ .lista-menu{
     display: block;
 }
+
+.lista-menu__titulo{
+    color:var(--branco);
+}
+
 .lista-menu__item{
     background: var(--roxo-degrade);
     -webkit-background-clip: text;
@@ -46,6 +53,11 @@
     padding: 1em;
     background-color: var(--branco);
 }
-.titulo__cabecalho{
-    display: none;
+.logo{
+    width: 60px !important;
+}
+
+@media screen and (min-width:1024px) {
+
+
 }

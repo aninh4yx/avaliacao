@@ -1,4 +1,4 @@
-.Imagem{
+.imagem{
     width: 280px!important;
     height: 220px!important;
 }
@@ -15,3 +15,38 @@
     margin-bottom: 7px;
     text-align: center;
 }
+
+@media screen and (min-width:840px) {
+    body{background: rgb(150, 150, 185);}
+    
+        .Imagem{
+            border: 3px solid rgb(92, 82, 136);
+            width: 100px!important;
+            height: 100px!important;
+        }
+    
+        .titulo{
+            font-size: 25px;
+            color:rgb(34, 14, 88);
+            
+        }
+    
+    }
+    
+    @media screen and (min-width:1024px) {
+       
+        .Imagem{
+            border: 3px solid rgb(82, 8, 8);
+            width: 130px!important;
+            height: 130px!important;
+        }
+    
+        .titulo{
+            font-size: 35px;
+            color:rgb(95, 6, 6);
+            
+        }
+    
+    
+        
+    }
